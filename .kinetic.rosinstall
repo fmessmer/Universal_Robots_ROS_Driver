@@ -1,0 +1,10 @@
+- git:
+    uri: https://github.com/ros-industrial/universal_robot.git
+    local-name: universal_robot
+    version: melodic-devel-staging
+# under kinetic ur_msgs contains the old service definitions so we need to use the newer ones.
+- git:
+    uri: https://github.com/ros-industrial/ur_msgs.git
+    local-name: ur_msgs
+    version: melodic-devel
+
