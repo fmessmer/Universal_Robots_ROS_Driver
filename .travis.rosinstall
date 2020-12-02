@@ -1,0 +1,8 @@
+- git:
+    uri: https://github.com/mojin-robotics/universal_robot.git
+    local-name: universal_robot
+    version: mojin-devel
+- git:
+    uri: https://github.com/mojin-robotics/ur_msgs.git
+    local-name: ur_msgs
+    version: melodic-devel
